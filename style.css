@@ -1,0 +1,360 @@
+body{
+    font-family: sans-serif;
+    position: relative;
+    background-image: url(./Backgound\ color.jpg);
+    background-repeat: no-repeat;
+    background-position-x: 600px;
+    overflow-x: hidden;
+}
+ #navbar{
+    margin-top: 30px;
+ }
+ .nav-item{
+    margin-left: 50px;
+ }
+ #navbar img{
+    margin-left: 50px;
+ }
+.nav {
+    display: flex;
+}
+.logo{
+   align-items: flex-start;
+}
+.card{
+    display: flex;
+}
+.nav-link{
+    color: black;
+    margin-right: 30px;
+}
+.dropdown{
+    margin-right: 100px;
+}
+#signup{
+    border: 2px solid black;
+    border-radius: 4px;
+    padding: 5px;
+    width: 80px;
+    text-align: center;
+}
+.main img{
+    height: 500px;
+    margin-left: 600px;
+}
+.main h4{
+    color: #Df6951;
+    font-weight: bold;
+    font-size: 20px;
+    margin-top: -450px;
+       margin-left: 100px;
+}
+.main h1{
+        margin-left: 100px;
+font-size: 60px; 
+}
+.main p{
+    margin-left: 100px;
+}
+.main .btn{
+margin-left: 100px;
+color: white;
+}
+.main .play-button{
+    width: 80px;
+    height: 80px;
+    margin-left: -5px;
+    margin-top: 20px;
+}
+.main .demo{
+    margin-left: 300px;
+    margin-top: -65px;
+}
+.text{
+    margin-top: 100px;
+}
+.text p{
+text-align: center;
+margin-top: 80px;
+color: grey;
+font-size: 15px;
+}
+.text h1{
+    text-align: center;
+    letter-spacing: 1px;
+}
+.image1{
+width: 100px;
+    height: 100px;
+    align-self: center;
+}
+.card-body{
+    text-align: center;
+}
+.row{
+    display: flex;
+    flex-direction: row;
+}
+.card-body h5{
+    font-weight: bold;
+}
+.card{
+    border: none;
+}
+.border{
+    box-shadow: -5px 0px 5px -5px gray , 5px 0px 5px -5px gray , 0px 5px 5px -5px gray;
+}
+.booking p{
+    margin-top: -50px;
+    margin-left: 100px;
+    color: rgb(71, 71, 71);
+}
+.booking h1{
+    margin-left: 100px;
+    font-family: sans-serif;
+    letter-spacing: 1px;
+}
+.booking img{
+  margin-left: 100px;
+}
+.selling{
+    margin-top: 50px;
+}
+.selling img{
+    width: 100%;
+}
+.selling img:hover{
+    width: 105%;
+    margin: auto;
+    cursor: pointer;
+}
+.booking h5{
+margin-left: 170px;
+margin-top: -60px;
+font-weight: bold;
+}
+.booking .para{
+    margin-top: -10px;
+    margin-left: 170px;
+}
+.booking .image{
+    margin-left: 600px;
+    margin-top: -600px;
+}
+.testimonial{
+    margin-left: 100px;
+    margin-top: -40px;
+}
+.testimonial h5{
+font-weight: bold;
+color: gray;
+}
+.testimonial h1{
+font-family: sans-serif;
+letter-spacing: 1px;
+}
+.testimonial .man{
+    margin-left: 400px;
+    margin-top: -200px;
+}
+.testimonial .para{
+    margin-left: 500px;
+ margin-top: -100px;
+}
+.box h6{
+   margin-left: 500px;
+ font-weight: bold;
+}
+.box .red{
+     margin-left: 500px;
+}
+.box2{
+    margin-left: 600px;
+    margin-top: -100px;
+    width: 400px;
+    padding: 100px 80px 10px 15px;
+    background-color: #ddddf7;
+}
+.picture{
+    display: flex;
+    justify-content: center;
+}
+.subscribe{
+    background-color: #DFD7F9;
+    width:70%;
+    height:300px;
+margin: auto;
+border-top-left-radius: 70px;
+border-bottom-left-radius: 20px;
+border-bottom-right-radius: 20px;
+}
+.subscribe .telegram{
+position: absolute;
+left: 78%;
+bottom: 17%;
+}
+.subscribe h2{
+    font-weight: bold;
+    text-align: center;
+    padding: 50px;
+}
+.subscribe .btn{
+    background-color: coral;
+    border: none;
+    color: white;
+    font-size: 12px;
+    padding: 10px;
+    height: 40px;
+    width: 90px;
+}
+.subscribe input{
+    width: 250px;
+    height: 40px;
+    padding-left: 20px;
+    margin-left: 30%;
+}
+footer{
+    display: flex;
+    margin-top: 100px;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+footer .Company{
+    width: 200px;
+    height: 150px;
+    margin-right:100px;
+    margin-top: -20px;
+}
+footer .column{
+    width: 400px;
+        height: 150px;
+        margin-right: 50px;
+
+}
+footer .outbond{
+    margin-top: -50px;
+    height: 150px;
+width: 200px;
+}
+.footer p{
+    text-align: center;
+    margin-top: 50px;
+    color: #5E6282;
+}
+@media only screen and (max-width: 600px){
+    .navbar-toggler-icon{
+        margin-left: 100px;
+border: 1px solid white;
+width: 30px;
+border-radius: 10px;
+background-color: rgb(249, 247, 247);
+    }
+    .border{
+        width: 300px;
+        margin: auto;
+    }
+    .text{
+        position: relative;
+        top: 230px;
+    }
+    .top img{
+       width: 500px;
+        }
+        .top img:hover{
+            width: 530px;
+            cursor: pointer;
+        }
+        .booking{
+            margin-right: 100px;
+        }
+    .booking .image{
+        margin-left: 50px;
+        margin-top: -120px;
+        width: 500px;
+    }
+    .testimonial .man{
+        margin-top:-5px;
+        margin-left: -20px;
+    }
+    .main h1{
+        font-size: 40px;
+        font-weight: bold;
+    }
+    #card{
+        margin-top: 300px;
+    }
+    .text h1{
+        font-size: 25px;
+        font-weight: bold;
+    }
+    .box .para{
+        margin-left: 20px;
+        margin-top: 5px;
+    }
+    #card{
+        margin-top: 250px;
+    }
+    .box h6{
+        margin-left: 20px;
+        margin-top: 5px;
+    }
+    .box .red{
+        margin-left: 20px;
+        margin-top: 5px;
+    }
+    .box2{
+        margin-left: 40px;
+        margin-top: -100px;
+        width: 250px;
+    }
+    .picture img{
+        width: 450px;
+        height: 200px;
+        display: flex;
+        justify-content: center;
+    }
+    .subscribe{
+    width:80%;
+}
+.main{
+   position: relative;
+   top: 280px;
+   right:40px ;
+}
+.subscribe .telegram{
+position: absolute;
+left: 80%;
+bottom: 19%;
+}
+.subscribe .btn{
+    padding: 10px;
+    height: 40px;
+    width: 90px;
+    position: absolute;
+    bottom: 615px;
+    right: 220px;
+}
+.subscribe input{
+    width: 250px;
+    height: 40px;
+    position: absolute;
+    bottom: 660px;
+    right: 120px;
+}
+footer .Company{
+    position: relative;
+    left: 30px;
+}
+footer .column{
+    position: relative;
+    left: 30px;
+}
+.travel .girl{
+    width: 200px;
+    height: 170px;
+    position: relative;
+    right: 240px;
+    bottom: 50px;
+    z-index: 2;
+}
